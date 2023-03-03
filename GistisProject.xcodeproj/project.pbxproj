@@ -1,0 +1,1326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		121FA85D29AC556F00FFBF00 /* GistiListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA80729AC556B00FFBF00 /* GistiListDataModel.swift */; };
+		121FA85E29AC556F00FFBF00 /* MFImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA80829AC556B00FFBF00 /* MFImageView.swift */; };
+		121FA85F29AC556F00FFBF00 /* GenericListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA80A29AC556B00FFBF00 /* GenericListViewController.swift */; };
+		121FA86029AC556F00FFBF00 /* EndPointConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA80B29AC556B00FFBF00 /* EndPointConfig.swift */; };
+		121FA86229AC556F00FFBF00 /* GenericListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA80E29AC556B00FFBF00 /* GenericListView.swift */; };
+		121FA86329AC556F00FFBF00 /* NSManagedObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA80F29AC556B00FFBF00 /* NSManagedObject+Extensions.swift */; };
+		121FA86429AC556F00FFBF00 /* EcommCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA81029AC556B00FFBF00 /* EcommCoordinator.swift */; };
+		121FA86529AC556F00FFBF00 /* GenericListCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA81129AC556B00FFBF00 /* GenericListCardCollectionViewCell.swift */; };
+		121FA86629AC556F00FFBF00 /* GistisEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA81229AC556B00FFBF00 /* GistisEndPoint.swift */; };
+		121FA86729AC556F00FFBF00 /* FlowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA81429AC556B00FFBF00 /* FlowType.swift */; };
+		121FA86829AC556F00FFBF00 /* GistisManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA81529AC556B00FFBF00 /* GistisManager.swift */; };
+		121FA86929AC556F00FFBF00 /* GistisListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA81629AC556B00FFBF00 /* GistisListView.swift */; };
+		121FA86A29AC556F00FFBF00 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA81829AC556B00FFBF00 /* UIBarButtonItem+Extension.swift */; };
+		121FA86B29AC556F00FFBF00 /* ProjectNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA81929AC556B00FFBF00 /* ProjectNavigationController.swift */; };
+		121FA86C29AC556F00FFBF00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121FA81A29AC556C00FFBF00 /* LaunchScreen.storyboard */; };
+		121FA86D29AC556F00FFBF00 /* GistiDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA81C29AC556C00FFBF00 /* GistiDetailView.swift */; };
+		121FA86E29AC556F00FFBF00 /* EcommPDPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA81D29AC556C00FFBF00 /* EcommPDPView.swift */; };
+		121FA87029AC556F00FFBF00 /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA82029AC556C00FFBF00 /* ProjectViewController.swift */; };
+		121FA87129AC556F00FFBF00 /* ViewCodeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA82129AC556C00FFBF00 /* ViewCodeConfiguration.swift */; };
+		121FA87229AC556F00FFBF00 /* GistiDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA82229AC556C00FFBF00 /* GistiDetailViewModel.swift */; };
+		121FA87329AC556F00FFBF00 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA82429AC556C00FFBF00 /* UIView+Extensions.swift */; };
+		121FA87429AC556F00FFBF00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA82529AC556C00FFBF00 /* ViewController.swift */; };
+		121FA87529AC556F00FFBF00 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA82629AC556C00FFBF00 /* UIViewController+Extension.swift */; };
+		121FA87629AC556F00FFBF00 /* FullWidthAutoSizingCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA82729AC556C00FFBF00 /* FullWidthAutoSizingCollectionViewFlowLayout.swift */; };
+		121FA87729AC556F00FFBF00 /* GistDetailTopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA82829AC556C00FFBF00 /* GistDetailTopCollectionViewCell.swift */; };
+		121FA87829AC556F00FFBF00 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA82929AC556C00FFBF00 /* String+Extensions.swift */; };
+		121FA87929AC556F00FFBF00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121FA82D29AC556D00FFBF00 /* Main.storyboard */; };
+		121FA87A29AC556F00FFBF00 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA82E29AC556D00FFBF00 /* UIColor+Extension.swift */; };
+		121FA87B29AC556F00FFBF00 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA82F29AC556D00FFBF00 /* DataStorage.swift */; };
+		121FA87C29AC556F00FFBF00 /* Coordinatior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA83029AC556D00FFBF00 /* Coordinatior.swift */; };
+		121FA87D29AC556F00FFBF00 /* GistList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA83129AC556D00FFBF00 /* GistList+CoreDataClass.swift */; };
+		121FA87E29AC556F00FFBF00 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA83229AC556D00FFBF00 /* ReusableView.swift */; };
+		121FA87F29AC556F00FFBF00 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA83529AC556D00FFBF00 /* RootCoordinator.swift */; };
+		121FA88029AC556F00FFBF00 /* GistisCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA83729AC556D00FFBF00 /* GistisCoordinator.swift */; };
+		121FA88129AC556F00FFBF00 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA83829AC556D00FFBF00 /* UIImage+Extension.swift */; };
+		121FA88229AC556F00FFBF00 /* GistisFavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA83A29AC556D00FFBF00 /* GistisFavoriteViewModel.swift */; };
+		121FA88329AC556F00FFBF00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA83B29AC556D00FFBF00 /* AppDelegate.swift */; };
+		121FA88429AC556F00FFBF00 /* LoadableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA83D29AC556D00FFBF00 /* LoadableViewController.swift */; };
+		121FA88529AC556F00FFBF00 /* MFColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA83E29AC556D00FFBF00 /* MFColorButton.swift */; };
+		121FA88629AC556F00FFBF00 /* GistisListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA83F29AC556D00FFBF00 /* GistisListViewModel.swift */; };
+		121FA88729AC556F00FFBF00 /* GistisConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA84029AC556D00FFBF00 /* GistisConfiguration.swift */; };
+		121FA88829AC556F00FFBF00 /* EcommPDPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA84129AC556D00FFBF00 /* EcommPDPViewModel.swift */; };
+		121FA88929AC556F00FFBF00 /* EcommPDPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA84229AC556D00FFBF00 /* EcommPDPViewController.swift */; };
+		121FA88A29AC556F00FFBF00 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA84329AC556E00FFBF00 /* FavoriteButton.swift */; };
+		121FA88B29AC556F00FFBF00 /* GistisNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA84429AC556E00FFBF00 /* GistisNetworkManager.swift */; };
+		121FA88D29AC556F00FFBF00 /* UIApplecation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA84829AC556E00FFBF00 /* UIApplecation+Extensions.swift */; };
+		121FA88E29AC556F00FFBF00 /* GistList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA84929AC556E00FFBF00 /* GistList+CoreDataProperties.swift */; };
+		121FA88F29AC556F00FFBF00 /* GenericListTopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA84A29AC556E00FFBF00 /* GenericListTopCollectionViewCell.swift */; };
+		121FA89029AC556F00FFBF00 /* GistisListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA84B29AC556E00FFBF00 /* GistisListWorker.swift */; };
+		121FA89129AC556F00FFBF00 /* CommonsCoordinatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA84D29AC556E00FFBF00 /* CommonsCoordinatorDelegate.swift */; };
+		121FA89229AC556F00FFBF00 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA84F29AC556E00FFBF00 /* CustomButton.swift */; };
+		121FA89329AC556F00FFBF00 /* GistisFavoriteCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA85029AC556E00FFBF00 /* GistisFavoriteCoordinator.swift */; };
+		121FA89529AC556F00FFBF00 /* MFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA85229AC556E00FFBF00 /* MFButton.swift */; };
+		121FA89629AC556F00FFBF00 /* GistDetailCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA85429AC556E00FFBF00 /* GistDetailCardCollectionViewCell.swift */; };
+		121FA89829AC556F00FFBF00 /* GistiDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA85629AC556E00FFBF00 /* GistiDetailViewController.swift */; };
+		121FA89929AC556F00FFBF00 /* GistiDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA85729AC556E00FFBF00 /* GistiDetailCoordinator.swift */; };
+		121FA89A29AC556F00FFBF00 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA85829AC556F00FFBF00 /* Observable.swift */; };
+		121FA89B29AC556F00FFBF00 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA85929AC556F00FFBF00 /* UIHelper.swift */; };
+		121FA89E29AC556F00FFBF00 /* GistisConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA85C29AC556F00FFBF00 /* GistisConfig.swift */; };
+		121FA8A229AC56DE00FFBF00 /* RootCoordinator+Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA8A129AC56DE00FFBF00 /* RootCoordinator+Flow.swift */; };
+		121FA8B629AC7A3900FFBF00 /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8A429AC7A3800FFBF00 /* Raleway-ExtraBoldItalic.ttf */; };
+		121FA8B729AC7A3900FFBF00 /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8A529AC7A3800FFBF00 /* Raleway-MediumItalic.ttf */; };
+		121FA8B829AC7A3900FFBF00 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8A629AC7A3800FFBF00 /* Raleway-Bold.ttf */; };
+		121FA8B929AC7A3900FFBF00 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8A729AC7A3800FFBF00 /* Raleway-Regular.ttf */; };
+		121FA8BA29AC7A3900FFBF00 /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8A829AC7A3800FFBF00 /* Raleway-LightItalic.ttf */; };
+		121FA8BB29AC7A3900FFBF00 /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8A929AC7A3900FFBF00 /* Raleway-ExtraLightItalic.ttf */; };
+		121FA8BC29AC7A3900FFBF00 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8AA29AC7A3900FFBF00 /* Raleway-Thin.ttf */; };
+		121FA8BD29AC7A3900FFBF00 /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8AB29AC7A3900FFBF00 /* Raleway-BlackItalic.ttf */; };
+		121FA8BE29AC7A3900FFBF00 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8AC29AC7A3900FFBF00 /* Raleway-Light.ttf */; };
+		121FA8BF29AC7A3900FFBF00 /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8AD29AC7A3900FFBF00 /* Raleway-Black.ttf */; };
+		121FA8C029AC7A3900FFBF00 /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8AE29AC7A3900FFBF00 /* Raleway-ThinItalic.ttf */; };
+		121FA8C129AC7A3900FFBF00 /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8AF29AC7A3900FFBF00 /* Raleway-BoldItalic.ttf */; };
+		121FA8C229AC7A3900FFBF00 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8B029AC7A3900FFBF00 /* Raleway-ExtraBold.ttf */; };
+		121FA8C329AC7A3A00FFBF00 /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8B129AC7A3900FFBF00 /* Raleway-Italic.ttf */; };
+		121FA8C429AC7A3A00FFBF00 /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8B229AC7A3900FFBF00 /* Raleway-SemiBoldItalic.ttf */; };
+		121FA8C529AC7A3A00FFBF00 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8B329AC7A3900FFBF00 /* Raleway-Medium.ttf */; };
+		121FA8C629AC7A3A00FFBF00 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8B429AC7A3900FFBF00 /* Raleway-ExtraLight.ttf */; };
+		121FA8C729AC7A3A00FFBF00 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8B529AC7A3900FFBF00 /* Raleway-SemiBold.ttf */; };
+		121FA8CB29AC7D9D00FFBF00 /* Raleway-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8CA29AC7C0300FFBF00 /* Raleway-VariableFont_wght.ttf */; };
+		121FA8CE29ACEF2800FFBF00 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121FA8CD29ACEF2800FFBF00 /* DesignTokens.swift */; };
+		121FA8E229ACF2FB00FFBF00 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8D029ACF2FA00FFBF00 /* Montserrat-SemiBoldItalic.ttf */; };
+		121FA8E329ACF2FB00FFBF00 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8D129ACF2FA00FFBF00 /* Montserrat-ExtraLight.ttf */; };
+		121FA8E429ACF2FB00FFBF00 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8D229ACF2FA00FFBF00 /* Montserrat-BlackItalic.ttf */; };
+		121FA8E529ACF2FB00FFBF00 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8D329ACF2FA00FFBF00 /* Montserrat-Medium.ttf */; };
+		121FA8E629ACF2FB00FFBF00 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8D429ACF2FA00FFBF00 /* Montserrat-BoldItalic.ttf */; };
+		121FA8E729ACF2FB00FFBF00 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8D529ACF2FA00FFBF00 /* Montserrat-ThinItalic.ttf */; };
+		121FA8E829ACF2FB00FFBF00 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8D629ACF2FA00FFBF00 /* Montserrat-ExtraBoldItalic.ttf */; };
+		121FA8E929ACF2FB00FFBF00 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8D729ACF2FA00FFBF00 /* Montserrat-Italic.ttf */; };
+		121FA8EA29ACF2FB00FFBF00 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8D829ACF2FA00FFBF00 /* Montserrat-ExtraBold.ttf */; };
+		121FA8EB29ACF2FB00FFBF00 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8D929ACF2FA00FFBF00 /* Montserrat-MediumItalic.ttf */; };
+		121FA8EC29ACF2FB00FFBF00 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8DA29ACF2FA00FFBF00 /* Montserrat-SemiBold.ttf */; };
+		121FA8ED29ACF2FB00FFBF00 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8DB29ACF2FA00FFBF00 /* Montserrat-Bold.ttf */; };
+		121FA8EE29ACF2FB00FFBF00 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8DC29ACF2FA00FFBF00 /* Montserrat-LightItalic.ttf */; };
+		121FA8EF29ACF2FB00FFBF00 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8DD29ACF2FA00FFBF00 /* Montserrat-Light.ttf */; };
+		121FA8F029ACF2FB00FFBF00 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8DE29ACF2FA00FFBF00 /* Montserrat-Regular.ttf */; };
+		121FA8F129ACF2FB00FFBF00 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8DF29ACF2FB00FFBF00 /* Montserrat-Thin.ttf */; };
+		121FA8F229ACF2FB00FFBF00 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8E029ACF2FB00FFBF00 /* Montserrat-ExtraLightItalic.ttf */; };
+		121FA8F329ACF2FB00FFBF00 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121FA8E129ACF2FB00FFBF00 /* Montserrat-Black.ttf */; };
+		128013D8258FE843000807B9 /* GistisProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 128013D6258FE843000807B9 /* GistisProject.xcdatamodeld */; };
+		128013DA258FE846000807B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128013D9258FE846000807B9 /* Assets.xcassets */; };
+		128013E8258FE847000807B9 /* GistisProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128013E7258FE847000807B9 /* GistisProjectTests.swift */; };
+		128013F3258FE847000807B9 /* GistisProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128013F2258FE847000807B9 /* GistisProjectUITests.swift */; };
+		1280152A2594501C000807B9 /* GenericListViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128015292594501C000807B9 /* GenericListViewModelProtocol.swift */; };
+		1280155825945E92000807B9 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1280155725945E92000807B9 /* DataManager.swift */; };
+		12801579259547F6000807B9 /* GenericViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12801578259547F6000807B9 /* GenericViewControllerTests.swift */; };
+		9CCEDD7E3E2671D203D5F9EA /* Pods_GistisProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E593461EB2FBDF7B092274F /* Pods_GistisProjectTests.framework */; };
+		AD927D4A5AED5364F2F7F275 /* Pods_GistisProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5727273335CE0002F4919E6E /* Pods_GistisProject.framework */; };
+		FC31D6A6C45808FD7B0A4490 /* Pods_GistisProject_GistisProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0DCA74153599F33B500F68 /* Pods_GistisProject_GistisProjectUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		128013E4258FE847000807B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 128013C2258FE843000807B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 128013C9258FE843000807B9;
+			remoteInfo = GistisProject;
+		};
+		128013EF258FE847000807B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 128013C2258FE843000807B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 128013C9258FE843000807B9;
+			remoteInfo = GistisProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F4BED3D941777C105A040C /* Pods-GistisProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GistisProject.debug.xcconfig"; path = "Target Support Files/Pods-GistisProject/Pods-GistisProject.debug.xcconfig"; sourceTree = "<group>"; };
+		121FA80729AC556B00FFBF00 /* GistiListDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistiListDataModel.swift; sourceTree = "<group>"; };
+		121FA80829AC556B00FFBF00 /* MFImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MFImageView.swift; sourceTree = "<group>"; };
+		121FA80A29AC556B00FFBF00 /* GenericListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericListViewController.swift; sourceTree = "<group>"; };
+		121FA80B29AC556B00FFBF00 /* EndPointConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPointConfig.swift; sourceTree = "<group>"; };
+		121FA80E29AC556B00FFBF00 /* GenericListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericListView.swift; sourceTree = "<group>"; };
+		121FA80F29AC556B00FFBF00 /* NSManagedObject+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObject+Extensions.swift"; sourceTree = "<group>"; };
+		121FA81029AC556B00FFBF00 /* EcommCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcommCoordinator.swift; sourceTree = "<group>"; };
+		121FA81129AC556B00FFBF00 /* GenericListCardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericListCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		121FA81229AC556B00FFBF00 /* GistisEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistisEndPoint.swift; sourceTree = "<group>"; };
+		121FA81429AC556B00FFBF00 /* FlowType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowType.swift; sourceTree = "<group>"; };
+		121FA81529AC556B00FFBF00 /* GistisManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistisManager.swift; sourceTree = "<group>"; };
+		121FA81629AC556B00FFBF00 /* GistisListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistisListView.swift; sourceTree = "<group>"; };
+		121FA81829AC556B00FFBF00 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		121FA81929AC556B00FFBF00 /* ProjectNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectNavigationController.swift; sourceTree = "<group>"; };
+		121FA81A29AC556C00FFBF00 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		121FA81C29AC556C00FFBF00 /* GistiDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistiDetailView.swift; sourceTree = "<group>"; };
+		121FA81D29AC556C00FFBF00 /* EcommPDPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcommPDPView.swift; sourceTree = "<group>"; };
+		121FA82029AC556C00FFBF00 /* ProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		121FA82129AC556C00FFBF00 /* ViewCodeConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCodeConfiguration.swift; sourceTree = "<group>"; };
+		121FA82229AC556C00FFBF00 /* GistiDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistiDetailViewModel.swift; sourceTree = "<group>"; };
+		121FA82429AC556C00FFBF00 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		121FA82529AC556C00FFBF00 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		121FA82629AC556C00FFBF00 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		121FA82729AC556C00FFBF00 /* FullWidthAutoSizingCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullWidthAutoSizingCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		121FA82829AC556C00FFBF00 /* GistDetailTopCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistDetailTopCollectionViewCell.swift; sourceTree = "<group>"; };
+		121FA82929AC556C00FFBF00 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		121FA82D29AC556D00FFBF00 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		121FA82E29AC556D00FFBF00 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		121FA82F29AC556D00FFBF00 /* DataStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
+		121FA83029AC556D00FFBF00 /* Coordinatior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinatior.swift; sourceTree = "<group>"; };
+		121FA83129AC556D00FFBF00 /* GistList+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GistList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		121FA83229AC556D00FFBF00 /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		121FA83529AC556D00FFBF00 /* RootCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		121FA83729AC556D00FFBF00 /* GistisCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistisCoordinator.swift; sourceTree = "<group>"; };
+		121FA83829AC556D00FFBF00 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		121FA83A29AC556D00FFBF00 /* GistisFavoriteViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistisFavoriteViewModel.swift; sourceTree = "<group>"; };
+		121FA83B29AC556D00FFBF00 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		121FA83D29AC556D00FFBF00 /* LoadableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadableViewController.swift; sourceTree = "<group>"; };
+		121FA83E29AC556D00FFBF00 /* MFColorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MFColorButton.swift; sourceTree = "<group>"; };
+		121FA83F29AC556D00FFBF00 /* GistisListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistisListViewModel.swift; sourceTree = "<group>"; };
+		121FA84029AC556D00FFBF00 /* GistisConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistisConfiguration.swift; sourceTree = "<group>"; };
+		121FA84129AC556D00FFBF00 /* EcommPDPViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcommPDPViewModel.swift; sourceTree = "<group>"; };
+		121FA84229AC556D00FFBF00 /* EcommPDPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcommPDPViewController.swift; sourceTree = "<group>"; };
+		121FA84329AC556E00FFBF00 /* FavoriteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		121FA84429AC556E00FFBF00 /* GistisNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistisNetworkManager.swift; sourceTree = "<group>"; };
+		121FA84829AC556E00FFBF00 /* UIApplecation+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplecation+Extensions.swift"; sourceTree = "<group>"; };
+		121FA84929AC556E00FFBF00 /* GistList+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GistList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		121FA84A29AC556E00FFBF00 /* GenericListTopCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericListTopCollectionViewCell.swift; sourceTree = "<group>"; };
+		121FA84B29AC556E00FFBF00 /* GistisListWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistisListWorker.swift; sourceTree = "<group>"; };
+		121FA84D29AC556E00FFBF00 /* CommonsCoordinatorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonsCoordinatorDelegate.swift; sourceTree = "<group>"; };
+		121FA84F29AC556E00FFBF00 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		121FA85029AC556E00FFBF00 /* GistisFavoriteCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistisFavoriteCoordinator.swift; sourceTree = "<group>"; };
+		121FA85129AC556E00FFBF00 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		121FA85229AC556E00FFBF00 /* MFButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MFButton.swift; sourceTree = "<group>"; };
+		121FA85429AC556E00FFBF00 /* GistDetailCardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistDetailCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		121FA85629AC556E00FFBF00 /* GistiDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistiDetailViewController.swift; sourceTree = "<group>"; };
+		121FA85729AC556E00FFBF00 /* GistiDetailCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistiDetailCoordinator.swift; sourceTree = "<group>"; };
+		121FA85829AC556F00FFBF00 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		121FA85929AC556F00FFBF00 /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		121FA85C29AC556F00FFBF00 /* GistisConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistisConfig.swift; sourceTree = "<group>"; };
+		121FA8A129AC56DE00FFBF00 /* RootCoordinator+Flow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RootCoordinator+Flow.swift"; sourceTree = "<group>"; };
+		121FA8A429AC7A3800FFBF00 /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		121FA8A529AC7A3800FFBF00 /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-MediumItalic.ttf"; sourceTree = "<group>"; };
+		121FA8A629AC7A3800FFBF00 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		121FA8A729AC7A3800FFBF00 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		121FA8A829AC7A3800FFBF00 /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-LightItalic.ttf"; sourceTree = "<group>"; };
+		121FA8A929AC7A3900FFBF00 /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		121FA8AA29AC7A3900FFBF00 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		121FA8AB29AC7A3900FFBF00 /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BlackItalic.ttf"; sourceTree = "<group>"; };
+		121FA8AC29AC7A3900FFBF00 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		121FA8AD29AC7A3900FFBF00 /* Raleway-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Black.ttf"; sourceTree = "<group>"; };
+		121FA8AE29AC7A3900FFBF00 /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ThinItalic.ttf"; sourceTree = "<group>"; };
+		121FA8AF29AC7A3900FFBF00 /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-BoldItalic.ttf"; sourceTree = "<group>"; };
+		121FA8B029AC7A3900FFBF00 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
+		121FA8B129AC7A3900FFBF00 /* Raleway-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Italic.ttf"; sourceTree = "<group>"; };
+		121FA8B229AC7A3900FFBF00 /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		121FA8B329AC7A3900FFBF00 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		121FA8B429AC7A3900FFBF00 /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
+		121FA8B529AC7A3900FFBF00 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		121FA8CA29AC7C0300FFBF00 /* Raleway-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		121FA8CD29ACEF2800FFBF00 /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		121FA8D029ACF2FA00FFBF00 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		121FA8D129ACF2FA00FFBF00 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		121FA8D229ACF2FA00FFBF00 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		121FA8D329ACF2FA00FFBF00 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		121FA8D429ACF2FA00FFBF00 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		121FA8D529ACF2FA00FFBF00 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		121FA8D629ACF2FA00FFBF00 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		121FA8D729ACF2FA00FFBF00 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		121FA8D829ACF2FA00FFBF00 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		121FA8D929ACF2FA00FFBF00 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		121FA8DA29ACF2FA00FFBF00 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		121FA8DB29ACF2FA00FFBF00 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		121FA8DC29ACF2FA00FFBF00 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		121FA8DD29ACF2FA00FFBF00 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		121FA8DE29ACF2FA00FFBF00 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		121FA8DF29ACF2FB00FFBF00 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		121FA8E029ACF2FB00FFBF00 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		121FA8E129ACF2FB00FFBF00 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		128013CA258FE843000807B9 /* GistisProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GistisProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		128013D7258FE843000807B9 /* GistisProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GistisProject.xcdatamodel; sourceTree = "<group>"; };
+		128013D9258FE846000807B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		128013E3258FE847000807B9 /* GistisProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GistisProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		128013E7258FE847000807B9 /* GistisProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistisProjectTests.swift; sourceTree = "<group>"; };
+		128013E9258FE847000807B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128013EE258FE847000807B9 /* GistisProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GistisProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		128013F2258FE847000807B9 /* GistisProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistisProjectUITests.swift; sourceTree = "<group>"; };
+		128013F4258FE847000807B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128015292594501C000807B9 /* GenericListViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericListViewModelProtocol.swift; sourceTree = "<group>"; };
+		1280155725945E92000807B9 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		12801578259547F6000807B9 /* GenericViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericViewControllerTests.swift; sourceTree = "<group>"; };
+		2C0DCA74153599F33B500F68 /* Pods_GistisProject_GistisProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GistisProject_GistisProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6EFED0CC652881792EF8B0 /* Pods-GistisProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GistisProject.release.xcconfig"; path = "Target Support Files/Pods-GistisProject/Pods-GistisProject.release.xcconfig"; sourceTree = "<group>"; };
+		30E037E3E740A37BF6F23D49 /* Pods-GistisProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GistisProjectTests.release.xcconfig"; path = "Target Support Files/Pods-GistisProjectTests/Pods-GistisProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		3E593461EB2FBDF7B092274F /* Pods_GistisProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GistisProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5727273335CE0002F4919E6E /* Pods_GistisProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GistisProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A32A53FAABC7C720841918C /* Pods-GistisProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GistisProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-GistisProjectTests/Pods-GistisProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2C48F177BD6A6FB95CF2CCA /* Pods-GistisProject-GistisProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GistisProject-GistisProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-GistisProject-GistisProjectUITests/Pods-GistisProject-GistisProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB72575E5B4D1D50709E3A57 /* Pods-GistisProject-GistisProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GistisProject-GistisProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-GistisProject-GistisProjectUITests/Pods-GistisProject-GistisProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		128013C7258FE843000807B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD927D4A5AED5364F2F7F275 /* Pods_GistisProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128013E0258FE847000807B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CCEDD7E3E2671D203D5F9EA /* Pods_GistisProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128013EB258FE847000807B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC31D6A6C45808FD7B0A4490 /* Pods_GistisProject_GistisProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		121FA75B29AA911300FFBF00 /* Ecomm */ = {
+			isa = PBXGroup;
+			children = (
+				121FA81029AC556B00FFBF00 /* EcommCoordinator.swift */,
+				121FA81D29AC556C00FFBF00 /* EcommPDPView.swift */,
+				121FA84229AC556D00FFBF00 /* EcommPDPViewController.swift */,
+				121FA84129AC556D00FFBF00 /* EcommPDPViewModel.swift */,
+			);
+			path = Ecomm;
+			sourceTree = "<group>";
+		};
+		121FA76429AAC1C900FFBF00 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				121FA8CC29ACEF0A00FFBF00 /* Tokens */,
+				121FA85229AC556E00FFBF00 /* MFButton.swift */,
+				121FA83E29AC556D00FFBF00 /* MFColorButton.swift */,
+				121FA80829AC556B00FFBF00 /* MFImageView.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		121FA8C829AC7A6100FFBF00 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				121FA8CF29ACF2DE00FFBF00 /* Montserrat */,
+				121FA8C929AC7A6D00FFBF00 /* Raleway */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		121FA8C929AC7A6D00FFBF00 /* Raleway */ = {
+			isa = PBXGroup;
+			children = (
+				121FA8CA29AC7C0300FFBF00 /* Raleway-VariableFont_wght.ttf */,
+				121FA8AD29AC7A3900FFBF00 /* Raleway-Black.ttf */,
+				121FA8AB29AC7A3900FFBF00 /* Raleway-BlackItalic.ttf */,
+				121FA8A629AC7A3800FFBF00 /* Raleway-Bold.ttf */,
+				121FA8AF29AC7A3900FFBF00 /* Raleway-BoldItalic.ttf */,
+				121FA8B029AC7A3900FFBF00 /* Raleway-ExtraBold.ttf */,
+				121FA8A429AC7A3800FFBF00 /* Raleway-ExtraBoldItalic.ttf */,
+				121FA8B429AC7A3900FFBF00 /* Raleway-ExtraLight.ttf */,
+				121FA8A929AC7A3900FFBF00 /* Raleway-ExtraLightItalic.ttf */,
+				121FA8B129AC7A3900FFBF00 /* Raleway-Italic.ttf */,
+				121FA8AC29AC7A3900FFBF00 /* Raleway-Light.ttf */,
+				121FA8A829AC7A3800FFBF00 /* Raleway-LightItalic.ttf */,
+				121FA8B329AC7A3900FFBF00 /* Raleway-Medium.ttf */,
+				121FA8A529AC7A3800FFBF00 /* Raleway-MediumItalic.ttf */,
+				121FA8A729AC7A3800FFBF00 /* Raleway-Regular.ttf */,
+				121FA8B529AC7A3900FFBF00 /* Raleway-SemiBold.ttf */,
+				121FA8B229AC7A3900FFBF00 /* Raleway-SemiBoldItalic.ttf */,
+				121FA8AA29AC7A3900FFBF00 /* Raleway-Thin.ttf */,
+				121FA8AE29AC7A3900FFBF00 /* Raleway-ThinItalic.ttf */,
+			);
+			path = Raleway;
+			sourceTree = "<group>";
+		};
+		121FA8CC29ACEF0A00FFBF00 /* Tokens */ = {
+			isa = PBXGroup;
+			children = (
+				121FA8CD29ACEF2800FFBF00 /* DesignTokens.swift */,
+			);
+			path = Tokens;
+			sourceTree = "<group>";
+		};
+		121FA8CF29ACF2DE00FFBF00 /* Montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				121FA8E129ACF2FB00FFBF00 /* Montserrat-Black.ttf */,
+				121FA8D229ACF2FA00FFBF00 /* Montserrat-BlackItalic.ttf */,
+				121FA8DB29ACF2FA00FFBF00 /* Montserrat-Bold.ttf */,
+				121FA8D429ACF2FA00FFBF00 /* Montserrat-BoldItalic.ttf */,
+				121FA8D829ACF2FA00FFBF00 /* Montserrat-ExtraBold.ttf */,
+				121FA8D629ACF2FA00FFBF00 /* Montserrat-ExtraBoldItalic.ttf */,
+				121FA8D129ACF2FA00FFBF00 /* Montserrat-ExtraLight.ttf */,
+				121FA8E029ACF2FB00FFBF00 /* Montserrat-ExtraLightItalic.ttf */,
+				121FA8D729ACF2FA00FFBF00 /* Montserrat-Italic.ttf */,
+				121FA8DD29ACF2FA00FFBF00 /* Montserrat-Light.ttf */,
+				121FA8DC29ACF2FA00FFBF00 /* Montserrat-LightItalic.ttf */,
+				121FA8D329ACF2FA00FFBF00 /* Montserrat-Medium.ttf */,
+				121FA8D929ACF2FA00FFBF00 /* Montserrat-MediumItalic.ttf */,
+				121FA8DE29ACF2FA00FFBF00 /* Montserrat-Regular.ttf */,
+				121FA8DA29ACF2FA00FFBF00 /* Montserrat-SemiBold.ttf */,
+				121FA8D029ACF2FA00FFBF00 /* Montserrat-SemiBoldItalic.ttf */,
+				121FA8DF29ACF2FB00FFBF00 /* Montserrat-Thin.ttf */,
+				121FA8D529ACF2FA00FFBF00 /* Montserrat-ThinItalic.ttf */,
+			);
+			path = Montserrat;
+			sourceTree = "<group>";
+		};
+		128013C1258FE843000807B9 = {
+			isa = PBXGroup;
+			children = (
+				128013CC258FE843000807B9 /* GistisProject */,
+				128013E6258FE847000807B9 /* GistisProjectTests */,
+				128013F1258FE847000807B9 /* GistisProjectUITests */,
+				128013CB258FE843000807B9 /* Products */,
+				DA7980CC718BBDC530EDC2BD /* Pods */,
+				6F88423EC09D05ED46B83808 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		128013CB258FE843000807B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				128013CA258FE843000807B9 /* GistisProject.app */,
+				128013E3258FE847000807B9 /* GistisProjectTests.xctest */,
+				128013EE258FE847000807B9 /* GistisProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		128013CC258FE843000807B9 /* GistisProject */ = {
+			isa = PBXGroup;
+			children = (
+				121FA8C829AC7A6100FFBF00 /* Fonts */,
+				121FA76429AAC1C900FFBF00 /* UIComponents */,
+				121FA75B29AA911300FFBF00 /* Ecomm */,
+				12801404258FED07000807B9 /* Commons */,
+				12801412258FED07000807B9 /* Gistis */,
+				128013D9258FE846000807B9 /* Assets.xcassets */,
+				121FA85129AC556E00FFBF00 /* Info.plist */,
+				121FA83B29AC556D00FFBF00 /* AppDelegate.swift */,
+				121FA81A29AC556C00FFBF00 /* LaunchScreen.storyboard */,
+				121FA82D29AC556D00FFBF00 /* Main.storyboard */,
+				121FA82529AC556C00FFBF00 /* ViewController.swift */,
+				128013D6258FE843000807B9 /* GistisProject.xcdatamodeld */,
+			);
+			path = GistisProject;
+			sourceTree = "<group>";
+		};
+		128013E6258FE847000807B9 /* GistisProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				12801578259547F6000807B9 /* GenericViewControllerTests.swift */,
+				128013E7258FE847000807B9 /* GistisProjectTests.swift */,
+				128013E9258FE847000807B9 /* Info.plist */,
+			);
+			path = GistisProjectTests;
+			sourceTree = "<group>";
+		};
+		128013F1258FE847000807B9 /* GistisProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				128013F2258FE847000807B9 /* GistisProjectUITests.swift */,
+				128013F4258FE847000807B9 /* Info.plist */,
+			);
+			path = GistisProjectUITests;
+			sourceTree = "<group>";
+		};
+		12801404258FED07000807B9 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				1280153625945908000807B9 /* Storage */,
+				128014E22593EC49000807B9 /* Components */,
+				1280144F258FF4CC000807B9 /* Configurations */,
+				1280144E258FF2F5000807B9 /* Layout */,
+				1280144A258FF279000807B9 /* Root+Flow */,
+				121FA83029AC556D00FFBF00 /* Coordinatior.swift */,
+				121FA85829AC556F00FFBF00 /* Observable.swift */,
+				121FA84D29AC556E00FFBF00 /* CommonsCoordinatorDelegate.swift */,
+				121FA80B29AC556B00FFBF00 /* EndPointConfig.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		12801412258FED07000807B9 /* Gistis */ = {
+			isa = PBXGroup;
+			children = (
+				121FA81529AC556B00FFBF00 /* GistisManager.swift */,
+				121FA85C29AC556F00FFBF00 /* GistisConfig.swift */,
+				121FA83729AC556D00FFBF00 /* GistisCoordinator.swift */,
+				128014C32591A1B4000807B9 /* Network */,
+				12801497259152F7000807B9 /* Scenes */,
+			);
+			path = Gistis;
+			sourceTree = "<group>";
+		};
+		12801416258FED07000807B9 /* GistisList */ = {
+			isa = PBXGroup;
+			children = (
+				121FA81629AC556B00FFBF00 /* GistisListView.swift */,
+				121FA83F29AC556D00FFBF00 /* GistisListViewModel.swift */,
+				121FA84B29AC556E00FFBF00 /* GistisListWorker.swift */,
+			);
+			path = GistisList;
+			sourceTree = "<group>";
+		};
+		1280144A258FF279000807B9 /* Root+Flow */ = {
+			isa = PBXGroup;
+			children = (
+				121FA83529AC556D00FFBF00 /* RootCoordinator.swift */,
+				121FA81429AC556B00FFBF00 /* FlowType.swift */,
+				121FA8A129AC56DE00FFBF00 /* RootCoordinator+Flow.swift */,
+			);
+			path = "Root+Flow";
+			sourceTree = "<group>";
+		};
+		1280144E258FF2F5000807B9 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				121FA82929AC556C00FFBF00 /* String+Extensions.swift */,
+				121FA84829AC556E00FFBF00 /* UIApplecation+Extensions.swift */,
+				121FA81829AC556B00FFBF00 /* UIBarButtonItem+Extension.swift */,
+				121FA82E29AC556D00FFBF00 /* UIColor+Extension.swift */,
+				121FA85929AC556F00FFBF00 /* UIHelper.swift */,
+				121FA83829AC556D00FFBF00 /* UIImage+Extension.swift */,
+				121FA82429AC556C00FFBF00 /* UIView+Extensions.swift */,
+				121FA82629AC556C00FFBF00 /* UIViewController+Extension.swift */,
+				121FA81929AC556B00FFBF00 /* ProjectNavigationController.swift */,
+				121FA82029AC556C00FFBF00 /* ProjectViewController.swift */,
+				121FA83D29AC556D00FFBF00 /* LoadableViewController.swift */,
+				121FA83229AC556D00FFBF00 /* ReusableView.swift */,
+				121FA82729AC556C00FFBF00 /* FullWidthAutoSizingCollectionViewFlowLayout.swift */,
+				121FA82129AC556C00FFBF00 /* ViewCodeConfiguration.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		1280144F258FF4CC000807B9 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				121FA84029AC556D00FFBF00 /* GistisConfiguration.swift */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		12801497259152F7000807B9 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				128014EB2593F752000807B9 /* GistisFavorite */,
+				1280149825915306000807B9 /* GistiDetail */,
+				12801416258FED07000807B9 /* GistisList */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		1280149825915306000807B9 /* GistiDetail */ = {
+			isa = PBXGroup;
+			children = (
+				121FA85729AC556E00FFBF00 /* GistiDetailCoordinator.swift */,
+				121FA81C29AC556C00FFBF00 /* GistiDetailView.swift */,
+				121FA85629AC556E00FFBF00 /* GistiDetailViewController.swift */,
+				121FA82229AC556C00FFBF00 /* GistiDetailViewModel.swift */,
+				128014B72591973C000807B9 /* Cells */,
+			);
+			path = GistiDetail;
+			sourceTree = "<group>";
+		};
+		128014B72591973C000807B9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				121FA85429AC556E00FFBF00 /* GistDetailCardCollectionViewCell.swift */,
+				121FA82829AC556C00FFBF00 /* GistDetailTopCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		128014C32591A1B4000807B9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				121FA81229AC556B00FFBF00 /* GistisEndPoint.swift */,
+				121FA84429AC556E00FFBF00 /* GistisNetworkManager.swift */,
+				128014C42591A1C1000807B9 /* Models */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		128014C42591A1C1000807B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				121FA80729AC556B00FFBF00 /* GistiListDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		128014E22593EC49000807B9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1280156F25951471000807B9 /* FavoriteButton */,
+				1280150E25944CFE000807B9 /* GenericList */,
+				121FA84F29AC556E00FFBF00 /* CustomButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		128014EB2593F752000807B9 /* GistisFavorite */ = {
+			isa = PBXGroup;
+			children = (
+				121FA83A29AC556D00FFBF00 /* GistisFavoriteViewModel.swift */,
+				121FA85029AC556E00FFBF00 /* GistisFavoriteCoordinator.swift */,
+			);
+			path = GistisFavorite;
+			sourceTree = "<group>";
+		};
+		1280150E25944CFE000807B9 /* GenericList */ = {
+			isa = PBXGroup;
+			children = (
+				128015292594501C000807B9 /* GenericListViewModelProtocol.swift */,
+				121FA80E29AC556B00FFBF00 /* GenericListView.swift */,
+				121FA80A29AC556B00FFBF00 /* GenericListViewController.swift */,
+				1280150F25944D08000807B9 /* Cells */,
+			);
+			path = GenericList;
+			sourceTree = "<group>";
+		};
+		1280150F25944D08000807B9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				121FA81129AC556B00FFBF00 /* GenericListCardCollectionViewCell.swift */,
+				121FA84A29AC556E00FFBF00 /* GenericListTopCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1280153625945908000807B9 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				121FA82F29AC556D00FFBF00 /* DataStorage.swift */,
+				1280155725945E92000807B9 /* DataManager.swift */,
+				121FA80F29AC556B00FFBF00 /* NSManagedObject+Extensions.swift */,
+				1280153B25945E2F000807B9 /* models */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		1280153B25945E2F000807B9 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				121FA83129AC556D00FFBF00 /* GistList+CoreDataClass.swift */,
+				121FA84929AC556E00FFBF00 /* GistList+CoreDataProperties.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		1280156F25951471000807B9 /* FavoriteButton */ = {
+			isa = PBXGroup;
+			children = (
+				121FA84329AC556E00FFBF00 /* FavoriteButton.swift */,
+			);
+			path = FavoriteButton;
+			sourceTree = "<group>";
+		};
+		6F88423EC09D05ED46B83808 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5727273335CE0002F4919E6E /* Pods_GistisProject.framework */,
+				2C0DCA74153599F33B500F68 /* Pods_GistisProject_GistisProjectUITests.framework */,
+				3E593461EB2FBDF7B092274F /* Pods_GistisProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA7980CC718BBDC530EDC2BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04F4BED3D941777C105A040C /* Pods-GistisProject.debug.xcconfig */,
+				2C6EFED0CC652881792EF8B0 /* Pods-GistisProject.release.xcconfig */,
+				C2C48F177BD6A6FB95CF2CCA /* Pods-GistisProject-GistisProjectUITests.debug.xcconfig */,
+				FB72575E5B4D1D50709E3A57 /* Pods-GistisProject-GistisProjectUITests.release.xcconfig */,
+				8A32A53FAABC7C720841918C /* Pods-GistisProjectTests.debug.xcconfig */,
+				30E037E3E740A37BF6F23D49 /* Pods-GistisProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		128013C9258FE843000807B9 /* GistisProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128013F7258FE847000807B9 /* Build configuration list for PBXNativeTarget "GistisProject" */;
+			buildPhases = (
+				4C3150E7C96F96329C7E2B72 /* [CP] Check Pods Manifest.lock */,
+				128013C6258FE843000807B9 /* Sources */,
+				128013C7258FE843000807B9 /* Frameworks */,
+				128013C8258FE843000807B9 /* Resources */,
+				ECBC5ADAF40098E28A16AF0A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GistisProject;
+			productName = GistisProject;
+			productReference = 128013CA258FE843000807B9 /* GistisProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		128013E2258FE847000807B9 /* GistisProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128013FA258FE847000807B9 /* Build configuration list for PBXNativeTarget "GistisProjectTests" */;
+			buildPhases = (
+				E1ADB7B73C5610C7AF7F93C3 /* [CP] Check Pods Manifest.lock */,
+				128013DF258FE847000807B9 /* Sources */,
+				128013E0258FE847000807B9 /* Frameworks */,
+				128013E1258FE847000807B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				128013E5258FE847000807B9 /* PBXTargetDependency */,
+			);
+			name = GistisProjectTests;
+			productName = GistisProjectTests;
+			productReference = 128013E3258FE847000807B9 /* GistisProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		128013ED258FE847000807B9 /* GistisProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128013FD258FE847000807B9 /* Build configuration list for PBXNativeTarget "GistisProjectUITests" */;
+			buildPhases = (
+				3ED3D7C4E7B36A35715CC17B /* [CP] Check Pods Manifest.lock */,
+				128013EA258FE847000807B9 /* Sources */,
+				128013EB258FE847000807B9 /* Frameworks */,
+				128013EC258FE847000807B9 /* Resources */,
+				6BFBC666C302FC0BCFA60820 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				128013F0258FE847000807B9 /* PBXTargetDependency */,
+			);
+			name = GistisProjectUITests;
+			productName = GistisProjectUITests;
+			productReference = 128013EE258FE847000807B9 /* GistisProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		128013C2258FE843000807B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					128013C9258FE843000807B9 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					128013E2258FE847000807B9 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 128013C9258FE843000807B9;
+					};
+					128013ED258FE847000807B9 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 128013C9258FE843000807B9;
+					};
+				};
+			};
+			buildConfigurationList = 128013C5258FE843000807B9 /* Build configuration list for PBXProject "GistisProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 128013C1258FE843000807B9;
+			productRefGroup = 128013CB258FE843000807B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				128013C9258FE843000807B9 /* GistisProject */,
+				128013E2258FE847000807B9 /* GistisProjectTests */,
+				128013ED258FE847000807B9 /* GistisProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		128013C8258FE843000807B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121FA8B629AC7A3900FFBF00 /* Raleway-ExtraBoldItalic.ttf in Resources */,
+				121FA8F329ACF2FB00FFBF00 /* Montserrat-Black.ttf in Resources */,
+				121FA8B829AC7A3900FFBF00 /* Raleway-Bold.ttf in Resources */,
+				121FA8F229ACF2FB00FFBF00 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				121FA86C29AC556F00FFBF00 /* LaunchScreen.storyboard in Resources */,
+				121FA8BE29AC7A3900FFBF00 /* Raleway-Light.ttf in Resources */,
+				121FA8EA29ACF2FB00FFBF00 /* Montserrat-ExtraBold.ttf in Resources */,
+				121FA8BB29AC7A3900FFBF00 /* Raleway-ExtraLightItalic.ttf in Resources */,
+				121FA8C329AC7A3A00FFBF00 /* Raleway-Italic.ttf in Resources */,
+				121FA8C729AC7A3A00FFBF00 /* Raleway-SemiBold.ttf in Resources */,
+				121FA8EE29ACF2FB00FFBF00 /* Montserrat-LightItalic.ttf in Resources */,
+				121FA8BA29AC7A3900FFBF00 /* Raleway-LightItalic.ttf in Resources */,
+				121FA8BC29AC7A3900FFBF00 /* Raleway-Thin.ttf in Resources */,
+				121FA8ED29ACF2FB00FFBF00 /* Montserrat-Bold.ttf in Resources */,
+				121FA8EF29ACF2FB00FFBF00 /* Montserrat-Light.ttf in Resources */,
+				121FA8EB29ACF2FB00FFBF00 /* Montserrat-MediumItalic.ttf in Resources */,
+				121FA8E629ACF2FB00FFBF00 /* Montserrat-BoldItalic.ttf in Resources */,
+				121FA8EC29ACF2FB00FFBF00 /* Montserrat-SemiBold.ttf in Resources */,
+				121FA8F029ACF2FB00FFBF00 /* Montserrat-Regular.ttf in Resources */,
+				121FA8B929AC7A3900FFBF00 /* Raleway-Regular.ttf in Resources */,
+				121FA8E829ACF2FB00FFBF00 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				121FA8E529ACF2FB00FFBF00 /* Montserrat-Medium.ttf in Resources */,
+				121FA8C429AC7A3A00FFBF00 /* Raleway-SemiBoldItalic.ttf in Resources */,
+				121FA8C529AC7A3A00FFBF00 /* Raleway-Medium.ttf in Resources */,
+				121FA8E929ACF2FB00FFBF00 /* Montserrat-Italic.ttf in Resources */,
+				121FA8C229AC7A3900FFBF00 /* Raleway-ExtraBold.ttf in Resources */,
+				121FA8F129ACF2FB00FFBF00 /* Montserrat-Thin.ttf in Resources */,
+				121FA8E429ACF2FB00FFBF00 /* Montserrat-BlackItalic.ttf in Resources */,
+				121FA8E329ACF2FB00FFBF00 /* Montserrat-ExtraLight.ttf in Resources */,
+				121FA8CB29AC7D9D00FFBF00 /* Raleway-VariableFont_wght.ttf in Resources */,
+				121FA8C629AC7A3A00FFBF00 /* Raleway-ExtraLight.ttf in Resources */,
+				121FA8B729AC7A3900FFBF00 /* Raleway-MediumItalic.ttf in Resources */,
+				121FA8BD29AC7A3900FFBF00 /* Raleway-BlackItalic.ttf in Resources */,
+				121FA87929AC556F00FFBF00 /* Main.storyboard in Resources */,
+				121FA8E729ACF2FB00FFBF00 /* Montserrat-ThinItalic.ttf in Resources */,
+				121FA8C029AC7A3900FFBF00 /* Raleway-ThinItalic.ttf in Resources */,
+				121FA8C129AC7A3900FFBF00 /* Raleway-BoldItalic.ttf in Resources */,
+				121FA8E229ACF2FB00FFBF00 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				121FA8BF29AC7A3900FFBF00 /* Raleway-Black.ttf in Resources */,
+				128013DA258FE846000807B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128013E1258FE847000807B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128013EC258FE847000807B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3ED3D7C4E7B36A35715CC17B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GistisProject-GistisProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C3150E7C96F96329C7E2B72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GistisProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BFBC666C302FC0BCFA60820 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GistisProject-GistisProjectUITests/Pods-GistisProject-GistisProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GistisProject-GistisProjectUITests/Pods-GistisProject-GistisProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GistisProject-GistisProjectUITests/Pods-GistisProject-GistisProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1ADB7B73C5610C7AF7F93C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GistisProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECBC5ADAF40098E28A16AF0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GistisProject/Pods-GistisProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GistisProject/Pods-GistisProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GistisProject/Pods-GistisProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		128013C6258FE843000807B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121FA86529AC556F00FFBF00 /* GenericListCardCollectionViewCell.swift in Sources */,
+				121FA86B29AC556F00FFBF00 /* ProjectNavigationController.swift in Sources */,
+				121FA89629AC556F00FFBF00 /* GistDetailCardCollectionViewCell.swift in Sources */,
+				121FA89229AC556F00FFBF00 /* CustomButton.swift in Sources */,
+				121FA87F29AC556F00FFBF00 /* RootCoordinator.swift in Sources */,
+				121FA88329AC556F00FFBF00 /* AppDelegate.swift in Sources */,
+				121FA87329AC556F00FFBF00 /* UIView+Extensions.swift in Sources */,
+				121FA88B29AC556F00FFBF00 /* GistisNetworkManager.swift in Sources */,
+				121FA88029AC556F00FFBF00 /* GistisCoordinator.swift in Sources */,
+				121FA87629AC556F00FFBF00 /* FullWidthAutoSizingCollectionViewFlowLayout.swift in Sources */,
+				121FA89929AC556F00FFBF00 /* GistiDetailCoordinator.swift in Sources */,
+				121FA89029AC556F00FFBF00 /* GistisListWorker.swift in Sources */,
+				121FA87C29AC556F00FFBF00 /* Coordinatior.swift in Sources */,
+				121FA87129AC556F00FFBF00 /* ViewCodeConfiguration.swift in Sources */,
+				121FA85F29AC556F00FFBF00 /* GenericListViewController.swift in Sources */,
+				121FA87B29AC556F00FFBF00 /* DataStorage.swift in Sources */,
+				121FA89829AC556F00FFBF00 /* GistiDetailViewController.swift in Sources */,
+				121FA86029AC556F00FFBF00 /* EndPointConfig.swift in Sources */,
+				1280152A2594501C000807B9 /* GenericListViewModelProtocol.swift in Sources */,
+				1280155825945E92000807B9 /* DataManager.swift in Sources */,
+				121FA86729AC556F00FFBF00 /* FlowType.swift in Sources */,
+				121FA86329AC556F00FFBF00 /* NSManagedObject+Extensions.swift in Sources */,
+				121FA86829AC556F00FFBF00 /* GistisManager.swift in Sources */,
+				121FA88829AC556F00FFBF00 /* EcommPDPViewModel.swift in Sources */,
+				121FA86229AC556F00FFBF00 /* GenericListView.swift in Sources */,
+				128013D8258FE843000807B9 /* GistisProject.xcdatamodeld in Sources */,
+				121FA87229AC556F00FFBF00 /* GistiDetailViewModel.swift in Sources */,
+				121FA88A29AC556F00FFBF00 /* FavoriteButton.swift in Sources */,
+				121FA88929AC556F00FFBF00 /* EcommPDPViewController.swift in Sources */,
+				121FA87A29AC556F00FFBF00 /* UIColor+Extension.swift in Sources */,
+				121FA89129AC556F00FFBF00 /* CommonsCoordinatorDelegate.swift in Sources */,
+				121FA87729AC556F00FFBF00 /* GistDetailTopCollectionViewCell.swift in Sources */,
+				121FA88F29AC556F00FFBF00 /* GenericListTopCollectionViewCell.swift in Sources */,
+				121FA86629AC556F00FFBF00 /* GistisEndPoint.swift in Sources */,
+				121FA89329AC556F00FFBF00 /* GistisFavoriteCoordinator.swift in Sources */,
+				121FA8CE29ACEF2800FFBF00 /* DesignTokens.swift in Sources */,
+				121FA8A229AC56DE00FFBF00 /* RootCoordinator+Flow.swift in Sources */,
+				121FA87E29AC556F00FFBF00 /* ReusableView.swift in Sources */,
+				121FA89529AC556F00FFBF00 /* MFButton.swift in Sources */,
+				121FA87029AC556F00FFBF00 /* ProjectViewController.swift in Sources */,
+				121FA85E29AC556F00FFBF00 /* MFImageView.swift in Sources */,
+				121FA89E29AC556F00FFBF00 /* GistisConfig.swift in Sources */,
+				121FA86A29AC556F00FFBF00 /* UIBarButtonItem+Extension.swift in Sources */,
+				121FA89A29AC556F00FFBF00 /* Observable.swift in Sources */,
+				121FA88D29AC556F00FFBF00 /* UIApplecation+Extensions.swift in Sources */,
+				121FA88429AC556F00FFBF00 /* LoadableViewController.swift in Sources */,
+				121FA87529AC556F00FFBF00 /* UIViewController+Extension.swift in Sources */,
+				121FA88E29AC556F00FFBF00 /* GistList+CoreDataProperties.swift in Sources */,
+				121FA86E29AC556F00FFBF00 /* EcommPDPView.swift in Sources */,
+				121FA86929AC556F00FFBF00 /* GistisListView.swift in Sources */,
+				121FA89B29AC556F00FFBF00 /* UIHelper.swift in Sources */,
+				121FA87429AC556F00FFBF00 /* ViewController.swift in Sources */,
+				121FA86D29AC556F00FFBF00 /* GistiDetailView.swift in Sources */,
+				121FA88629AC556F00FFBF00 /* GistisListViewModel.swift in Sources */,
+				121FA85D29AC556F00FFBF00 /* GistiListDataModel.swift in Sources */,
+				121FA88229AC556F00FFBF00 /* GistisFavoriteViewModel.swift in Sources */,
+				121FA87D29AC556F00FFBF00 /* GistList+CoreDataClass.swift in Sources */,
+				121FA88729AC556F00FFBF00 /* GistisConfiguration.swift in Sources */,
+				121FA87829AC556F00FFBF00 /* String+Extensions.swift in Sources */,
+				121FA88529AC556F00FFBF00 /* MFColorButton.swift in Sources */,
+				121FA88129AC556F00FFBF00 /* UIImage+Extension.swift in Sources */,
+				121FA86429AC556F00FFBF00 /* EcommCoordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128013DF258FE847000807B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12801579259547F6000807B9 /* GenericViewControllerTests.swift in Sources */,
+				128013E8258FE847000807B9 /* GistisProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128013EA258FE847000807B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128013F3258FE847000807B9 /* GistisProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		128013E5258FE847000807B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 128013C9258FE843000807B9 /* GistisProject */;
+			targetProxy = 128013E4258FE847000807B9 /* PBXContainerItemProxy */;
+		};
+		128013F0258FE847000807B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 128013C9258FE843000807B9 /* GistisProject */;
+			targetProxy = 128013EF258FE847000807B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		128013F5258FE847000807B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		128013F6258FE847000807B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		128013F8258FE847000807B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04F4BED3D941777C105A040C /* Pods-GistisProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFFGVTCR47;
+				INFOPLIST_FILE = GistisProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mag.GistisProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		128013F9258FE847000807B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C6EFED0CC652881792EF8B0 /* Pods-GistisProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFFGVTCR47;
+				INFOPLIST_FILE = GistisProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mag.GistisProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		128013FB258FE847000807B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A32A53FAABC7C720841918C /* Pods-GistisProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFFGVTCR47;
+				INFOPLIST_FILE = GistisProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mag.GistisProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GistisProject.app/GistisProject";
+			};
+			name = Debug;
+		};
+		128013FC258FE847000807B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E037E3E740A37BF6F23D49 /* Pods-GistisProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFFGVTCR47;
+				INFOPLIST_FILE = GistisProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mag.GistisProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GistisProject.app/GistisProject";
+			};
+			name = Release;
+		};
+		128013FE258FE847000807B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C48F177BD6A6FB95CF2CCA /* Pods-GistisProject-GistisProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFFGVTCR47;
+				INFOPLIST_FILE = GistisProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mag.GistisProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GistisProject;
+			};
+			name = Debug;
+		};
+		128013FF258FE847000807B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB72575E5B4D1D50709E3A57 /* Pods-GistisProject-GistisProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFFGVTCR47;
+				INFOPLIST_FILE = GistisProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mag.GistisProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GistisProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		128013C5258FE843000807B9 /* Build configuration list for PBXProject "GistisProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128013F5258FE847000807B9 /* Debug */,
+				128013F6258FE847000807B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128013F7258FE847000807B9 /* Build configuration list for PBXNativeTarget "GistisProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128013F8258FE847000807B9 /* Debug */,
+				128013F9258FE847000807B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128013FA258FE847000807B9 /* Build configuration list for PBXNativeTarget "GistisProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128013FB258FE847000807B9 /* Debug */,
+				128013FC258FE847000807B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128013FD258FE847000807B9 /* Build configuration list for PBXNativeTarget "GistisProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128013FE258FE847000807B9 /* Debug */,
+				128013FF258FE847000807B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		128013D6258FE843000807B9 /* GistisProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				128013D7258FE843000807B9 /* GistisProject.xcdatamodel */,
+			);
+			currentVersion = 128013D7258FE843000807B9 /* GistisProject.xcdatamodel */;
+			path = GistisProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 128013C2258FE843000807B9 /* Project object */;
+}
